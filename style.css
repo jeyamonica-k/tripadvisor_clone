@@ -1,0 +1,607 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Gabarito", sans-serif;
+}
+.header, .searchbar, .saleimage{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.header{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header_s1 img{
+  width: 220px;
+}
+.header_s1-menu,.header_s1-user{
+  display: none;
+}
+.header_s2 {
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header_s1-logo:hover, .underline:hover{
+  text-decoration: underline;
+}
+.box:hover{
+  background-color:#F2F2F2;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.header_s3{
+  display: flex;
+  gap:20px;
+  align-items: center;
+}
+.singin{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.header_s1-logo:hover, .box:hover, .underline:hover, .singin:hover{
+  cursor: pointer;
+}
+/* Searchbar */
+.searchbar{
+  margin-top: 40px;
+}
+.searchbar_s1{
+  font-size: 40px;
+  text-align: center;
+}
+.searchbar_s2{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.searchbar_s2-option{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.searchbar_s2 p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.searchbar_s3{
+  margin-top: 40px;
+}
+.searchbar_s3 input{
+  outline: none;
+}
+.searchbar_s3{
+  margin-top: 40px;
+  border: solid black 1px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 60%;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.searchbar_s3-input i{
+  padding: 10px;
+}
+.searchbar_s3-input input{
+  border: none;
+  width: 300px;
+  font-size: 20px;
+
+}
+.searchbar_s3-input input:focus{
+  outline:none;
+}
+.searchbar_s3 h3{
+  background-color: #34E0A1;
+  color: black;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.saleimage{
+  background-color: #D8D4FB;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 10px;
+  position: relative;
+  height: 400px;
+  
+}
+.saleimage__img{
+  margin-left: 200px;
+}
+.saleimage__img img{
+  width:98%;
+
+}
+.saleimage__content{
+  width: 50%;
+  margin-left: 40px;
+  color: #301D49;
+  padding:30px;
+  position: absolute;
+  top:20px;
+}
+.saleimage__content h1{
+  font-size: 60px;
+}
+.saleimage__content h3{
+  margin: 10px;
+  font-size: 20px;
+  text-wrap: wrap;
+}
+.saleimage__content span{
+  background-color: white;
+  color: black;
+  padding: 2px;
+}
+.saleimage__content__s1{
+  margin-top: 20px;
+  background-color: #301D49;
+  color: white;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+}
+.explore{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  background-color: #F2F1EC;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.explore__container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.explore__container__s1{
+ width: 50%;
+ height: 100%;
+}
+.explore__container__s1 img{
+  margin: 20px;
+  width: 50%;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.explore__container__s2{
+  width: 90%;
+}
+.explore__container__s2 p,h3{
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.explore__button{
+  position: relative;
+}
+.explore__button h3{
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: solid black 2px;
+  border-radius: 30px;
+  position: absolute;
+  left: 1000px;
+  bottom: 20px;
+  text-align: center;
+}
+.explore__button h3:hover{
+  background-color: black;
+  color: white;
+}
+.Coursecard{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.Coursecard__title{
+  margin-top: 50px;
+  padding: 10px;
+}
+.Coursecard__title p{
+  margin-top: 10px;
+}
+
+.Coursecard__container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Coursecard__image{
+
+  flex-basis: 15%;
+  flex-grow: 1;
+  margin: 5px;
+  position: relative;
+  height: 300px;
+}
+
+.Coursecard__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Coursecard__image  h2{
+  position: absolute;
+  top:250px;
+  left: 5px;
+  color: white;
+}
+.tripdetails{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.tripdetails__title{
+  margin-top: 50px;
+  padding: 10px;
+}
+.tripdetails__container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tripdetails__container__image{
+  flex-basis: 15%;
+  flex-grow: 1;
+  margin: 5px;
+  height: 300px;
+}
+.tripdetails__container__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.viewcard{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 225px;
+  background-color: #F2F1EC;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.viewcard__container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.viewcard__container__s1{
+ width: 50%;
+ height: 100%;
+}
+.viewcard__container__s1 img{
+  margin: 20px;
+  width: 50%;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.viewcard__container__s2{
+  width: 90%;
+}
+.viewcard__container__s2 p,h3{
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.viewcard__button{
+  position: relative;
+}
+.viewcard__button h3{
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: solid black 2px;
+  border-radius: 30px;
+  position: absolute;
+  left: 1000px;
+  bottom: 20px;
+  text-align: center;
+}
+.viewcard__button h3:hover{
+  background-color: black;
+  color: white;
+}
+
+.Moretoexplore{
+  background-color: #FAF1ED;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.Moretoexplore__container1{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.Moretoexplore__container1__title{
+  padding-top: 20px;
+}
+.Moretoexplore__container2{
+  display: flex;
+  justify-content: center;
+}
+.Moretoexplore__container2__coursecard{
+  flex-basis: 30%;
+  flex-grow: 1;
+  margin: 5px;
+  height: 250px;
+  position: relative;
+}
+.Moretoexplore__container2__coursecard img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Moretoexplore__container2__coursecard h4{
+  cursor: pointer;
+}
+.Moretoexplore__container2__coursecard h4:hover{
+  text-decoration: underline;
+ 
+}
+
+.Moretoexplore__container2__coursecard h1{
+  position: absolute;
+  top:6px;
+  right: 10px;
+}
+
+.footer{
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #FAF1ED;
+  
+}
+.footer__section{
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.footer__section1{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer__section1__option1 p,.footer__section1__option2 p,.footer__section1__option3 p,.footer__section2 p{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sub:hover{
+  text-decoration: underline;
+}
+.footer__section1__option1 span,.footer__section1__option2 span,.footer__section1__option3 span,.footer__section2 span{
+  cursor:default;
+}
+.footer__info{
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info1{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  
+}
+.footer__info1__content-items{
+  width: 60%;
+}
+.footer__info1__content-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+    
+}
+.footer__info1__content-items h4:hover{
+  text-decoration: underline;
+}
+.footer__info2{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.footer__info2 select{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.footer__footsec{
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between ;
+}
+.footer__footsec__s1{
+  width: 70%;
+  font-size: 12px;
+}
+.footer__footsec__s2{
+  display: flex;
+  justify-content: space-between;
+  gap:20px
+}
+.footer__footsec__s2 i{
+  padding: 10px;
+}
+
+/* Meadia Query */
+
+@media screen and (max-width:1000px) {
+  .header{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .header_s2,.header_s3 .box{
+    display: none;
+  }
+  .header_s1-menu{
+    display: inline;
+  }
+  .header_s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+  }
+  .singin{
+    display: inline;
+  }
+  .searchbar_s2{
+    margin-top: 20px;
+  }
+  .searchbar_s3{
+    width: 80%;
+    margin-left: 0;
+  }
+  .searchbar_s3-input{
+    display: flex;
+  }
+  .searchbar_s3 h3{
+    display: block;
+    margin-left: 100px;
+    
+    
+
+  }
+}
+
+@media  screen and (max-width:600px) {
+
+  body{
+    font-size: 16px;
+  }
+  .header_s2,.header_s3{
+    display: none;
+  }
+  .header{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .header_s1{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    align-items: center;
+
+  
+  }
+  .header_s1-menu,.header_s1-user{
+    display:inline;
+  }
+  .header_s1-menu:hover, .header_s1-user:hover{
+    cursor: pointer;
+
+  }
+  .searchbar{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .searchbar_s1{
+    display: none;
+  }
+  .searchbar_s2{
+    gap: 50px;
+    overflow: scroll;
+  }
+  .searchbar_s3{
+  width: 90%;
+  margin-left: 0px;
+  display: inline-block
+}
+
+.searchbar_s3 input{
+  font-size: 18px;
+}
+.searchbar_s3 h3{
+  margin-left: 0px;
+}
+.saleimage{
+  margin-left: 0px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+.saleimage{
+  margin-left: 0;
+  margin-right: 0;
+  height: 625px;
+
+}
+
+.saleimage__content{
+  display: flex;
+  flex-direction: column;
+}
+
+.saleimage__img img{
+  position: absolute;
+  top: 425px;
+  right: 50px;
+}
+.saleimage__content{
+  position: static;
+}
+.explore{
+  display: none;
+}
+.Coursecard{
+  margin-left: 0;
+  margin-right: 0;
+}
+.Coursecard__image{
+  flex-basis: 40%;
+}
+.tripdetails{
+  margin-left: 0;
+  margin-right: 0;
+}
+.tripdetails__container__image{
+  flex-basis: 40%;
+}
+.viewcard{
+  display: none;
+}
+.Moretoexplore{
+  margin-left: 0;
+  margin-right: 0;
+  display: none;
+}
+
+}
