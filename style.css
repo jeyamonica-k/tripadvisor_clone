@@ -227,16 +227,15 @@ body{
 }
 .Coursecard__image{
 
-  flex-basis: 15%;
+  flex-basis: 20%;
   flex-grow: 1;
   margin: 5px;
   position: relative;
-  height: 300px;
 }
 
 .Coursecard__image img{
   width: 100%;
-  height: 100%;
+  height: 300px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -260,14 +259,14 @@ body{
   flex-wrap: wrap;
 }
 .tripdetails__container__image{
-  flex-basis: 15%;
+  flex-basis: 20%;
   flex-grow: 1;
   margin: 5px;
-  height: 300px;
+  
 }
 .tripdetails__container__image img{
   width: 100%;
-  height: 100%;
+  height: 300px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -394,13 +393,18 @@ body{
   padding: 10px;
   cursor: pointer;
 }
-
+.footer__section1__option1 i,.footer__section1__option2 i,.footer__section1__option3 i,.footer__section2 i{
+  display: none;
+}
+ 
 .sub:hover{
   text-decoration: underline;
 }
 .footer__section1__option1 span,.footer__section1__option2 span,.footer__section1__option3 span,.footer__section2 span{
   cursor:default;
 }
+
+/* logo */
 .footer__info{
   margin-left: 150px;
   margin-right: 150px;
@@ -413,8 +417,12 @@ body{
   gap:20px;
   
 }
+.footer__info1__icon{
+  height: 10%;
+}
 .footer__info1__content-items{
   width: 60%;
+  text-wrap: wrap;
 }
 .footer__info1__content-items{
   display: flex;
@@ -603,5 +611,71 @@ body{
   margin-right: 0;
   display: none;
 }
-
+.footer{
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer__section{
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap :40px;
+}
+.footer__section1__option1 .sub,.footer__section1__option2 .sub, .footer__section1__option3 .sub, .footer__section2 .sub{
+  display: none;
+}
+.footer__section1{
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.footer__section1__option3-sub{
+  margin-top: 50px;
+}
+.footer__section2{
+  
+  cursor: pointer;
+}
+.footer__section p:hover{
+  text-decoration: underline;
+}
+.footer__section1__option1 i,.footer__section1__option2 i,.footer__section1__option3 i,.footer__section2 i{
+  display: inline;
+  }
+  .footer__info{
+    flex-direction: column;
+    gap:30px;
+    margin-left: 0;
+  }
+  .footer{
+    position: relative;
+  }
+    
+  
+  
+  .footer__info1__content{
+    margin-right: 0px;
+    
+  }
+  .footer__info1__content-copyright{
+    width: 250%;
+  }
+  .footer__info1__content-items{
+    margin-top: 10px;
+    width:200%
+    
+  }
+  .footer__info2{
+    gap:150px;
+  }
+  .footer__footsec{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    text-wrap: wrap;
+  }
+ .footer__footsec__s1 p{
+  width: 150%;
+  margin-left: 0px;
+ }
 }
