@@ -567,9 +567,7 @@ body{
   position: relative;
 }
 .saleimage{
-  margin-left: 0;
-  margin-right: 0;
-  height: 625px;
+ display:none;
 
 }
 
@@ -666,7 +664,7 @@ body{
     
   }
   .footer__info2{
-    gap:150px;
+    gap:100px;
   }
   .footer__footsec{
     flex-direction: column;
