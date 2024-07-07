@@ -566,7 +566,7 @@ body{
   align-items: center;
   position: relative;
 }
-.saleimage{
+.saleimage img{
  display:none;
 
 }
@@ -576,11 +576,6 @@ body{
   flex-direction: column;
 }
 
-.saleimage__img img{
-  position: absolute;
-  top: 425px;
-  right: 50px;
-}
 .saleimage__content{
   position: static;
 }
@@ -664,7 +659,11 @@ body{
     
   }
   .footer__info2{
-    gap:100px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between
+    
   }
   .footer__footsec{
     flex-direction: column;
